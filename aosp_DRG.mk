@@ -25,7 +25,7 @@ $(call inherit-product, device/nokia/DRG/device.mk)
 # Inherit some common PixelExperience stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
-$(call inherit-product, vendor/config/common.mk)
+$(call inherit-product, vendor/aosp/common.mk)
 
 # A/B updater
 AB_OTA_UPDATER := true
